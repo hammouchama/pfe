@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #21B4B2;
+    font-size: 19px;
+    max-height: 80px;
+}
+
+#lgo {
+    height: 38px;
+    max-width: 115px;
+    left: 10px;
+    top: 47px;
+    border-radius: nullpx;
+    font-size: 10px;
+    color: #ffffff !important;
+}
+
+#se-connecter {
+    background-color: #DEEF14;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+#myNavbar ul li a:hover {
+    color: #ef6414 !important;
+}
+
+#myNavbar ul li a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ef9b14e3;
+    transition: 0.7s;
+}
+
+#myNavbar ul li a:hover::after {
+    width: 100%;
+}
+
+#myNavbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-basis: content;
+}
+
+
+/*authen*/
+
+.login-form .sign-in-htm .group {
+    display: none;
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+.login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.login-form .group {
+    margin-bottom: 15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group {
+    width: 100%;
+    color: #fff;
+    display: block;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0);
+}
+
+#oublie {
+    font-size: 30px;
+    color: #0c0c0c;
+    transition: 1s;
+    text-decoration: none;
+}
+
+#oublie:hover {
+    color: #DEEF14;
+}
+
+.login-form .group input[data-type="password"] {
+    -webkit-text-security: circle;
+}
+
+.login-form .group .label {
+    color: #0c0c0c;
+    font-size: solid;
+}
+
+.login-wrap {
+    margin: 0;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 525px;
+    min-height: 500px;
+    position: relative;
+    background: url("../images/bg.jpg") no-repeat center;
+}
+
+.login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: #21b4b28e;
+}
+
+
+/* foorer*/
+
+.scrol .d-block {
+    max-height: 70vh !important;
+}
+
+.footer {
+    background-color: #21B4B2;
+    padding: 20px;
+}
+
+.footer-2 button {
+    background-color: #98D94E;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+}
+
+.bton-top {
+    position: relative;
+    top: 100%;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.contact {
+    display: flex !important;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.contact a img {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+.suiv {
+    position: relative;
+    width: 0;
+    height: 0px;
+    left: 0%;
+    top: 90%;
+    bottom: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+
+/* accuiel*/
+
+.des-c {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.ann {
+    font-family: 'Ravi Prakash';
+    color: #21B4B2;
+    font-size: 30px;
+}
+
+.lire-plus {
+    background-color: #0281f8d6 !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    font-family: 'Ravi Prakash' !important
+}
+
+.voir-plus {
+    font-size: 20px;
+    margin-left: 50%;
+    background: #98D94E;
+    border-radius: 10px !important;
+    min-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Ravi Prakash'
+}
+
+.myCont {
+    margin-top: calc(1 * var(--bs-gutter-y)) !important;
+    margin-right: calc(1 * var(--bs-gutter-x)) !important;
+    margin-left: calc(1 * var(--bs-gutter-x)) !important;
+}
+
+.myCol {
+    padding: calc(2 * var(--bs-gutter-x)) !important;
+    min-width: 200px;
+}
+
+.imag-an {
+    height: 200px;
+    transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+
+.imag-an:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.voir-plus:hover {
+    background-color: #DEEF14;
+}
+
+.lire-plus:hover {
+    background-color: #DEEF14 !important;
+    color: #000000 !important;
+}

@@ -1,0 +1,63 @@
+.user {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    margin-left: 8%;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.myCont-1 {
+    margin-top: -3% !important;
+    margin: 0 3%;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a {
+    color: white;
+    background-color: #2b2fff75;
+}
+
+.paginationDisabled a {
+    color: grey;
+    background-color: grey;
+}
+
+.serchBar {
+    margin-top: 0%;
+    margin-left: 10%;
+    background-color: #00000011;
+    overflow: hidden;
+    width: 80%;
+}
+
+.serchBar .col {
+    margin-top: 4%;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Dancing+Script&family=Monsieur+La+Doulaise&family=Niconne&family=Patrick+Hand&family=Pattaya&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+.main-footer {
+    color: rgb(12, 12, 12);
+    background-color: rgba(10, 43, 43, 0.753) !important;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -100%;
+}
+
+.f2 li a {
+    color: black
+}
+
+.f2 h6 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.f2 .btn1 {
+    color: black;
+    background-color: rgb(36, 187, 69);
+    border-radius: 10px;
+    margin-top: 6px;
+    width: 100px;
+    margin-left: 50%;
+}
+
+.f2 li {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+}
+
+.f2 form {
+    background-color: rgba(21, 22, 22, 0.007) !important;
+}
+
+.f2 i {
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.f2 input {
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: 0px !important;
+}
+
+.f2 textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+.f2 p {
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 4px;
+    color: black;
+}
+
+.s-nous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media(max-width:562px) {}

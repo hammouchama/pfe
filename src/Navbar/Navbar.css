@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.navbar {
+    font-size: 17px;
+    max-height: 68px;
+    z-index: 2;
+}
+
+.navbar-logo {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+}
+
+.navbar-mainbg {
+    background-color: #0fd2ab !important;
+    padding: 0px;
+}
+
+#navbarSupportedContent {
+    overflow: hidden;
+    /*display: flow-root;*/
+}
+
+#navbarSupportedContent .all-ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+    margin-left: 20%;
+}
+
+#nav-logo {
+    width: 100px;
+    height: 60px
+}
+
+#navbarSupportedContent .all-ul li a i {
+    margin-right: 5px;
+    color: #000000;
+}
+
+#navbarSupportedContent li {
+    list-style-type: none;
+    float: right;
+}
+
+#navbarSupportedContent .all-ul li a {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+}
+
+.my-uls {
+    display: none;
+}
+
+.isDisabled {
+    pointer-events: none;
+    cursor: not-allowed !important;
+    text-decoration: none !important;
+}
+
+#navbarSupportedContent .all-ul li:hover .my-uls {
+    background-color: #0fd2abae;
+    margin-top: 1px;
+    margin-left: -5px;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    width: auto;
+}
+
+#navbarSupportedContent .all-ul li:hover .my-uls>dl {
+    display: block;
+    margin: 10px;
+}
+
+#navbarSupportedContent .all-ul li:hover .my-uls dl dt {
+    width: 100%;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+}
+
+#navbarSupportedContent .all-ul li:hover .my-uls dl dt a:hover {
+    color: rgba(171, 201, 24, 0.953)
+}
+
+#navbarSupportedContent .all-ul li:hover .my-uls dl dt :last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 991px) {
+    #navbarSupportedContent .all-ul li a {
+        padding: 12px 30px;
+    }
+    #navbarSupportedContent .all-ul li:hover .my-uls {
+        margin-left: 5px;
+        margin-top: -5px;
+        background-color: #020202a5;
+    }
+    #navbarSupportedContent .all-ul {
+        background-color: #0fd2ab;
+        max-width: 50%;
+        margin-left: 50%;
+        min-height: 20vh;
+        border-radius: 6%;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 2 !important;
+    }
+    #nav-logo {
+        margin-top: -10%;
+        width: 130px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        max-height: 80%;
+    }
+    #navbarSupportedContent .all-ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -5px;
+    }
+}

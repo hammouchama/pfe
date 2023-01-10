@@ -1,0 +1,272 @@
+/*authen*/
+
+.login-form .sign-in-htm .group {
+    display: none;
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+.login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.login-form .group {
+    margin-bottom: 15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group {
+    width: 100%;
+    color: #fff;
+    display: block;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: rgba(240, 218, 218, 0.911);
+}
+
+#oublie {
+    font-size: 30px;
+    color: #0c0c0c;
+    transition: 1s;
+    text-decoration: none;
+}
+
+#oublie:hover {
+    color: #DEEF14;
+}
+
+.login-form .group input[data-type="password"] {
+    -webkit-text-security: circle;
+}
+
+.login-form .group .label {
+    color: #0c0c0c;
+    font-size: solid;
+}
+
+.login-wrap {
+    margin: 0;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 525px;
+    min-height: 500px;
+    position: relative;
+    background: url("../public/images/logos/bg.jpg") no-repeat center;
+}
+
+.login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: #21b4b28e;
+}
+
+
+/* foorer*/
+
+.scrol .d-block {
+    max-height: 45vh !important;
+    margin-top: 5px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.footer {
+    background-color: #21B4B2;
+    padding: 20px;
+}
+
+.footer-2 {
+    margin-left: 35% !important;
+    width: 40%;
+}
+
+.footer-2 button {
+    background-color: #98D94E;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+i {
+    color: #535151;
+}
+
+.bton-top {
+    position: fixed;
+    top: 98%;
+    left: 99%;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex !important;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.contact a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+.suiv {
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+
+/* accuiel*/
+
+.des-c {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.ann {
+    font-family: 'Ravi Prakash';
+    color: #21B4B2;
+    font-size: 25px;
+}
+
+.lire-plus {
+    background-color: #0281f80c;
+    text-align: center !important;
+    font-size: 15px !important;
+    font-family: 'Ravi Prakash' !important;
+    width: 100px;
+    max-height: 70px;
+    color: #000000;
+    text-decoration: double;
+    border: none;
+}
+
+.voir-plus {
+    box-sizing: content-box;
+    width: 200px !important;
+    font-size: 20px;
+    margin-left: 50%;
+    background: #98D94E;
+    border-radius: 5px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Ravi Prakash';
+}
+
+.alert1 {
+    border-radius: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.myCont {
+    margin-right: calc(1 * var(--bs-gutter-x)) !important;
+    margin-left: calc(1 * var(--bs-gutter-x)) !important;
+    /*  min-width: 400px !important;*/
+    overflow: hidden;
+}
+
+.loading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#myCol {
+    padding: calc(1 * var(--bs-gutter-x)) !important;
+    /*  min-width: 400px !important;
+    /*  max-height: 500px !important;*/
+}
+
+#locoal {
+    color: #333232d8;
+    font-size: 5px solid;
+    font-family: 'Ravi Prakash';
+}
+
+a {
+    text-decoration: none;
+}
+
+.imag-an {
+    height: 200px;
+    transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+
+#myCol1 img:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#card-ann {
+    min-height: 470px !important;
+    max-height: 470px !important;
+}
+
+.voir-plus:hover {
+    background-color: #DEEF14;
+}
+
+.lire-plus:hover {
+    background-color: #DEEF14 !important;
+    color: #000000 !important;
+}
+
+#nous {
+    font-family: 'Ravi Prakash';
+    color: #21B4B2;
+    font-size: 25px;
+}
+
+@media (max-width: 940px) {
+    .contact {
+        display: flex !important;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: -2px;
+    }
+    .contact a img {
+        width: 30px;
+        height: 30px;
+    }
+    #myCol {
+        box-sizing: content-box;
+        min-width: 30%
+    }
+}
+
+@media (max-width: 767px) {
+    #card-ann {
+        max-width: 80% !important;
+        margin-left: 2%;
+    }
+}
+
+.scrol p {
+    font-size: 18px;
+}

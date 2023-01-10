@@ -1,0 +1,108 @@
+.annonce_d table {
+    margin-left: auto;
+    margin-top: 10px;
+    color: black;
+}
+
+.annonce_d .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.annonce_d .card {
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.annonce_d td,
+.annonce_d th,
+.annonce_d tr {
+    width: 70%;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.annonce_d tbody {
+    text-align: left;
+    margin-left: -50px !important;
+}
+
+.annonce_d img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 230px;
+}
+
+#partie1 {
+    margin-left: 50px;
+}
+
+.annonce_d {
+    margin-bottom: 20px;
+}
+
+.annonce_d h1 {
+    position: center;
+    color: teal;
+}
+
+.annonce_d button {
+    background-color: rgba(10, 241, 241, 0.74);
+    border-radius: 3px;
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.annonce_d button:hover {
+    color: azure;
+    background-color: chocolate;
+}
+
+.annonce_d th {
+    color: teal;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc {
+    color: black !important;
+    font-size: 18px !important;
+}
+
+.comment {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 70% !important;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.comment .button {
+    background-color: rgba(10, 241, 241, 0.74);
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 87%;
+    font-size: 20px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:300px) {
+    .annonce_d table {
+        width: 200px;
+        margin-left: 50px;
+    }
+}
+
+.annonce_d th {
+    margin-left: 10px !important;
+}

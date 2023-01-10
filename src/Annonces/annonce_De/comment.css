@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+/* demo setup */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+.commentss h1 {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(6 6 6);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 20%;
+    cursor: pointer;
+}
+
+blockquote {
+    max-width: 70%;
+    margin-inline: auto;
+}
+
+.pas_de_coment {
+    font-size: 30px;
+    margin-left: 35%;
+    color: rgba(4, 10, 4, 0.671);
+}
+
+
+/* blockquote card colors */
+
+blockquote.q-card-color-1 {
+    --accent-color: rgb(103, 103, 126);
+    --bg-color: rgb(30 145 254);
+    --dot-color: rgb(255 255 255 / .35);
+    --text-color: rgb(243 243 243);
+    --text-color-author: rgb(243 243 243);
+}
+
+blockquote p {
+    margin-left: 10%;
+}
+
+
+/* blockquote card setup*/
+
+blockquote.q-card {
+    --padding: 2px;
+    padding: var(--padding);
+    color: var(--text-color, black);
+    font-weight: 600;
+    background-color: var(--bg-color, white);
+    display: grid;
+    gap: 1rem;
+    border-radius: 20px;
+    /*box-shadow: 0.5rem 0.5rem 2rem rgb(0 0 0 / .5);*/
+}
+
+blockquote.q-card::before {
+    --qHeight: 2rem;
+    content: "";
+    margin-left: calc(var(--padding) * -1);
+    margin-top: calc(var(--padding) * -1);
+    height: var(--qHeight);
+    width: calc(var(--qHeight) * 1.1);
+    background-image: radial-gradient( circle at bottom right, transparent calc(var(--qHeight) / 4 - 1px), var(--accent-color, black) calc(var(--qHeight) / 4) calc(var(--qHeight) / 2), transparent calc(var(--qHeight) / 2 + 1px)), linear-gradient(var(--accent-color, black), var(--accent-color, black));
+    background-size: calc(var(--qHeight) / 2) calc(var(--qHeight) / 2);
+    background-position: top left, bottom left;
+    background-repeat: space no-repeat;
+    margin-left: 94%;
+}
+
+blockquote.q-card>.author {
+    color: var(--text-color-author, white);
+    background-color: var(--accent-color, black);
+    justify-self: end;
+    font-size: 0.75em;
+    padding: 0.5em 1em;
+    border-radius: 0.25rem;
+    margin-bottom: -10px;
+}
+
+blockquote.q-card>.author::before {
+    content: "by :  "
+}
+
+.commentss {
+    margin-left: -100px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#del-c i {
+    color: darkred;
+    cursor: pointer;
+}
+
+#del-c {
+    margin-left: 90%;
+}
+
+.imag-log img {
+    padding: 0%;
+    margin: 0%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -15%;
+    margin-left: 0%;
+    border-radius: 50%;
+    margin-top: -6.5%;
+}
+
+
+/* comment*/
+
+section {
+    padding-right: 85px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+
+.commenter {
+    overflow: hidden;
+    padding: 0 0 1em;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 1em;
+    margin-left: 40px;
+    *zoom: 1;
+    width: 100%;
+}
+
+.comment-img {
+    float: left;
+    margin-right: 38px;
+    border-radius: 5px;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.comment-img {
+    display: block
+}
+
+.comment-body {
+    overflow: hidden
+}
+
+.commenter .text {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.commenter .text p:last-child {
+    margin: 0
+}
+
+.commenter .attribution {
+    margin: 0.5em 0 0;
+    font-size: 14px;
+    color: #666;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+
+/* Decoration */
+
+.commenters,
+.commenter {
+    position: relative
+}
+
+.commenters:before,
+.commenter:before,
+.commenter .text:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 69px;
+}
+
+.commenters:before {
+    width: 3px;
+    left: 105px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.commenter:before {
+    width: 9px;
+    height: 9px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    margin: 16px 0 0 -6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    background: #ccc;
+}
+
+.commenter:hover {
+    /*  cursor: url('../images/FB_CUR.cur');  See the result on http://lab.web-gate.fr/timeline/ */
+    cursor: cell;
+    /* This line is for the cursor */
+}
+
+.commenter:hover:before {
+    background: #3b5998
+}
+
+.commenter .text:before {
+    top: 18px;
+    left: 78px;
+    width: 9px;
+    height: 9px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+
+/**/
+
+.commentess11 {
+    display: none !important;
+}
+
+.visible {
+    display: grid !important;
+}
+
+.notVisible {
+    display: none !important;
+}
+
+.attribution span {
+    color: rgba(41, 231, 127, 0.815);
+    font-size: 16px;
+    text-decoration: double;
+}

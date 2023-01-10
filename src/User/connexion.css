@@ -1,0 +1,180 @@
+    .ff form {
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .background {
+        width: 430px;
+        height: 520px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 60%;
+    }
+    
+    .loocked {
+        width: 100px;
+        height: 100px;
+        margin-top: -30px;
+        margin-left: 35%;
+    }
+    
+    .coo-1 {
+        background-image: url('../../public/images/logos/connection.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .background .shape {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .shape:first-child {
+        background: linear-gradient( #1876ad, #23a2f6);
+        left: -90px;
+        top: -80px;
+    }
+    
+    .shape:last-child {
+        background: linear-gradient( to right, #ff512f, #f09819);
+        right: -100px;
+        bottom: -80px;
+    }
+    
+    .ff {
+        height: 570px;
+        width: 400px;
+        background-color: rgba(12, 122, 130, 0.309);
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        padding: 50px 35px;
+        margin-top: 3%;
+    }
+    
+    .ff * {
+        font-family: 'Poppins', sans-serif;
+        color: #070707;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+    
+    .ff h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+    }
+    
+    .ff label {
+        display: block;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .ff input {
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.63);
+        border-radius: 15px;
+        padding: 0 10px;
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+     ::placeholder {
+        color: #161616;
+    }
+    
+    .ff p {
+        font-size: 17px;
+        margin-top: 5px;
+        color: #100f0f;
+        margin: 20px 0px;
+    }
+    
+    .ff button {
+        margin-top: 10px;
+        width: 60%;
+        margin-left: 24%;
+        background-color: #09eeb5dc;
+        color: #080710;
+        padding: 15px 0;
+        font-size: 18px;
+        border-radius: 15px;
+        cursor: pointer;
+        height: 10%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ff button:hover {
+        box-shadow: #070707;
+        color: #f09819;
+    }
+    
+    .social {
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .social div {
+        background: red;
+        width: 150px;
+        border-radius: 3px;
+        padding: 5px 10px 10px 5px;
+        background-color: rgba(243, 65, 21, 0.611);
+        color: #f3f3f3;
+        text-align: center;
+    }
+    
+    .social div:hover {
+        background-color: rgba(255, 255, 255, 0.47);
+        color: #070707;
+    }
+    
+    .social .fb {
+        margin-left: 25px;
+    }
+    
+    .social i {
+        margin-right: 4px;
+        color: #000000;
+    }
+    
+    .oblie button {
+        background-color: #09eeb5dc;
+        color: #000;
+    }
+    
+    .oblie form {
+        background-color: #00325381;
+    }
+    
+    .alrt-aniscr {
+        list-style-type: none;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .alrt-aniscr li {
+        margin: 0 80px;
+        font-size: 30px;
+    }
